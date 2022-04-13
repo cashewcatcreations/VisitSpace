@@ -1,0 +1,122 @@
+
+#demo {
+  height:1em;
+  position: absolute;
+  Top: 20%;
+  left: 3%;
+  transform: (-50%,-50%) 
+
+}
+body {
+    background:url("../images/menu2.jpg") ;
+  background-size: 100vw 100vh;
+  background-repeat: no-repeat;
+
+}
+
+
+
+
+#next {
+  text-shadow: 0 0 10px #FFFFFF;
+  color: #FFFFFF;
+  font-size:30px;
+  height:1em;
+  position: relative;
+  Top: 3%;
+  left:475%;
+
+}
+   
+#back {
+  text-shadow: 0 0 10px #FFFFFF;
+  color: #FFFFFF;
+  font-size:30px;
+  height:1em;
+  position: relative;
+  Top: 3%;
+  right:13%;
+}
+    
+          body {
+            overflow: visible;
+          } 
+          
+          .sun {
+            height: 300px;
+            width:300px;
+            background: rgb(246,232,13);
+            background: radial-gradient(circle, rgba(246,232,13,1) 0%,  rgba(255,255,255,0) 70%);
+            background-size: 100%;
+            background-repeat: no-repeat;
+            background-position: center;
+            -webkit-animation: Gradient 6s ease-in-out infinite;
+            -moz-animation: Gradient 6s ease-in-out infinite;
+            animation: Gradient 6s ease-in-out infinite; 
+            position: absolute;
+            z-index: -9999;
+          }
+          
+          
+          
+          @-webkit-keyframes Gradient {
+            0% {
+              height: 150px;
+              width:150px;
+          }
+          50% {
+            height: 300px;
+            width:300px;
+          }
+          100% {
+            height: 150px;
+            width:150px;
+          }
+          }
+          
+          
+          @-moz-keyframes Gradient {
+            0% {
+              height: 150px;
+              width:150px;
+          }
+          50% {
+            height: 300px;
+            width:300px;
+          }
+          100% {
+            height: 150px;
+            width:150px;
+          }
+          }
+          
+          
+          @keyframes Gradient {
+              0% {
+              background-size: 50%;
+            }
+            50% {
+              background-size: 100%;
+            }
+            100% {
+              background-size: 50%;
+            }
+          } 
+          
+          
+          @keyframes Gradient {
+            0% {
+              height: 150px;
+              width:150px;
+          }
+          50% {
+            height: 300px;
+            width:300px;
+          }
+          100% {
+            height: 150px;
+            width:150px;
+          }
+          
+          
+          }   
