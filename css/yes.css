@@ -14,28 +14,14 @@ body {
 
 }
 
-
-
-
-#next {
-  text-shadow: 0 0 10px #FFFFFF;
-  color: #FFFFFF;
-  font-size:30px;
-  height:1em;
-  position: relative;
-  Top: 3%;
-  left:475%;
-
-}
-   
 #back {
   text-shadow: 0 0 10px #FFFFFF;
   color: #FFFFFF;
   font-size:30px;
   height:1em;
   position: relative;
-  Top: 3%;
-  right:13%;
+  Top: 6%;
+  right:-503%;
 }
     
           body {
